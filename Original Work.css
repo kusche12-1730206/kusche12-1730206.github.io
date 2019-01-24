@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    background-image: url('rainier.jpg');
+
+}
+
+a {
+    color: lightblue;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+p {
+    font-weight: bold;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+}
+
+h3 {
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Open Sans";
+    margin-bottom: 0px;
+
+}
+
+li {
+
+}
+
+div {
+    background-color: rgb(89, 7, 120);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#Header{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    border-radius: 4px;
+
+}
+
+#Header h1 {
+    font-size: 60px;
+    font-family: "Open Sans";
+    color: #FFBC00;
+    font-weight: bold;
+}
+
+#LeftNav {
+    text-align: center;
+    padding-bottom: 8px;
+    float: left;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+    border-radius: 4px;
+}
+
+#Content img {
+    width: 50%;
+    height: auto;
+}
+
+#LeftNav ul {
+
+}
+
+#LeftNav h3 {
+
+}
+
+#Content {
+    padding: 15px;
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    border-radius: 4px;
+
+}
+#Footer {
+    position: static;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    border-radius: 4px;
+
+}
+
+#Footer li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-family: "Open Sans"
+}
